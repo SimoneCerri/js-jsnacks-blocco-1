@@ -3,7 +3,7 @@ let cubes;
 
 while (enne > 0)
 {
-    let number = prompt("give me number")
+    let number = Number(prompt("give me number"));
     cubes = ( number * number * number );
     console.log(cubes);
     enne--;
