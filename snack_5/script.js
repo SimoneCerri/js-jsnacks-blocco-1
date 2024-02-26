@@ -14,4 +14,5 @@ while (i < 6)
         
     }
     console.log(container);
+    i++;
 }
